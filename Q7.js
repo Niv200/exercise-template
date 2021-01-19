@@ -6,16 +6,22 @@ function run() {
 /**/
 
     //write your code here
+    //test sample [1,2,-5,7,3]
     for(let i = 0; i < arr.length; i++){
-        let num = arr[i];
-        for(let j = 0; j < arr.length - 1; j++){
-            if(num > arr[j]){
-                console.log(j);
-            }
-        }
+        console.log(arr[i]);  //
     }
+
+    // for(let i = 0; i < arr.length; i++){
+    //     let num = arr[i];
+    //     let largest = num;
+    //     let array = [];
+    //     for(let j = 0; j < arr.length - 1; j++){
+    //         if(num > arr[j]){
+    //             console.log(j);
+    //         }
+    //     }
+    //     console.log(array);
+    // }
 /**/
-    console.log(is_array('w3resource'));
-    console.log(([1, 2, 4, 0]).toS);
     output.innerText = out;
 }
