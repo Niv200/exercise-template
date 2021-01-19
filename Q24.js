@@ -2,7 +2,7 @@ function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
     let out = "";
-    /*arrays to add into*/
+    /*arrays to filter from*/
     let arr = [NaN, 0, 15, false, -22, '',undefined, 47, null];
     //write your code here 
 

@@ -11,3 +11,4 @@ Using The Template:
 4. Use the variable "input" to recieve the string from the input element
 
 5. Change the variable "outText" to show it at the page. 
+
