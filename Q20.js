@@ -3,10 +3,10 @@ function run() {
     const output = document.getElementById("output");
     let out = "";
     /*array to look into*/
-    var array = [1, 2, -2, 4, 5, 4, 7, 8, 7, 7, 71, 3, 6];
+    let array = [1, 2, -2, 4, 5, 4, 7, 8, 7, 7, 71, 3, 6];
     //write your code here 
-    var dupes = [];
-    var notDupes = [];
+    let dupes = [];
+    let notDupes = [];
     for(let i = 0; i < array.length; i++){
         if(notDupes.includes(array[i])){
             dupes.push(array[i]);

@@ -4,7 +4,7 @@ function run() {
     let out = "";
     let num = JSON.parse(input);
     /*item database for search up*/
-    var items = [1, 2, 3, 4, 5, 7, 8, 9];
+    let items = [1, 2, 3, 4, 5, 7, 8, 9];
     //write your code here 
     out = searchFor(items, num);
     /**/
