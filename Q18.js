@@ -3,7 +3,7 @@ function run() {
     const output = document.getElementById("output");
     let out = "";
     let num = JSON.parse(input);
-    /*array to look into*/
+    /*item database for search up*/
     var items = [1, 2, 3, 4, 5, 7, 8, 9];
     //write your code here 
     out = searchFor(items, num);
