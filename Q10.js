@@ -1,3 +1,4 @@
+//Change ln. 11 to false inorder to insert a table manually into input box.
 function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
@@ -7,7 +8,7 @@ function run() {
     //input code to test
     let table = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
     //write your code here
-    if(false){ //Change this to true to check via inserting a table manually.
+    if(true){ //Change this to false to check via inserting a table manually.
         table = arr;  
     }
     for(let i = 0; i < table.length; i++){

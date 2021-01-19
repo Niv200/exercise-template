@@ -1,5 +1,6 @@
+//Modify HTML comments to run this test.
+//run should say "add", while count sums up.
 let sum = 0;
-
 function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");

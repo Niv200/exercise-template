@@ -1,3 +1,5 @@
+//Example input : [1,2,-5,7,3]
+
 function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");

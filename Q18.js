@@ -1,3 +1,4 @@
+//Insert a number and find its position based on the items array.
 function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");

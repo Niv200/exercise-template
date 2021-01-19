@@ -1,4 +1,4 @@
-
+    //Change lines 22 & 23 for the different values.
     function lookUp(obj , arg){
         if(obj.hasOwnProperty(arg)){
             return obj[arg];
@@ -19,8 +19,8 @@
         //write your code here 
         let arr = [];
         for(let i = 0; i < library.length; i++){
-            //arr.push(lookUp(library[i], 'title'));
-            arr.push(lookUp(library[i], 'author'));
+            arr.push(lookUp(library[i], 'title'));
+            // arr.push(lookUp(library[i], 'author'));
             //Change here to look at the other search
         }
         out = arr;

@@ -2,8 +2,7 @@ function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
     let out = "";
-/////write your code here
-//I had to reverse engineer the answer however I managed to understand it :)
+//I had to reverse engineer the answer however I managed to understand it and changed it according to me. :)
     let num = input.toString();
     let rslt = [];
     rslt[0] = num[0];
@@ -17,7 +16,7 @@ function run() {
         }
     }
     console.log(rslt.join(''));
-///////////////////////////////
+    /////
 
     output.innerText = out;
 }

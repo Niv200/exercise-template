@@ -1,3 +1,5 @@
+//Modify HTML comments to run this test.
+//Takes two inputs, year from and year to, finds leap year in between those years.
 function run() {
     const input = document.getElementById("input").value;
     const input2 = document.getElementById("input2").value;
