@@ -14,7 +14,5 @@ function run() {
         return false;
     }
 /**/
-    console.log(is_array('w3resource'));
-    console.log(([1, 2, 4, 0]).toS);
     output.innerText = out;
 }
